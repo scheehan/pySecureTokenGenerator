@@ -25,7 +25,7 @@ cd pySecureTokenGenerator
 ## Sample How-to steps 
 
 ### Sample acceptable argument
-![powershell_ran_sample](images\ps_augs_sample.png)
+![powershell_ran_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/ps_augs_sample.png)
 
 ### Generate random URLSafe token for one-time password recovery link ran under Windows Power Shell
 ```
@@ -33,17 +33,17 @@ python .\pyGhash.py --urlsafe 16 | Tee-Object -Variable MyVariable
 echo 'http://www.example.com/pass-recover=$MyVariable'
 ```
 
-![powershell_ran_sample](images\ps_sample.png)
+![powershell_ran_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/ps_sample.png)
 
 ### Generate random URLSafe token for one-time password recovery link ran under Linux Bash
 ```
 # python3 PySecretsGen.py --urlsafe 16 | { read MyVariable; echo "http://www.example.com/pass-recover=$MyVariable";}
 ```
 
-![bash_ran_sample](images\sh_sample.png)
+![bash_ran_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/sh_sample.png)
 
 ### Generate a random alphanumeric string with special symbol characters without whitespace. 
-![powershell_ran_passwd_sample](images\ps_passwd_sample.png)
+![powershell_ran_passwd_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/\ps_passwd_sample.png)
 
 ### Generate a XKCD-style passphrase based upon a simple american dict compressed file.
-![powershell_ran_xkcd_sample](images\ps_xkcd_sample.png)
+![powershell_ran_xkcd_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/ps_xkcd_sample.png)
