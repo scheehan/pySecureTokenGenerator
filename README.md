@@ -43,7 +43,7 @@ echo 'http://www.example.com/pass-recover=$MyVariable'
 ![bash_ran_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/sh_sample.png)
 
 ### Generate a random alphanumeric string with special symbol characters without whitespace. 
-![powershell_ran_passwd_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/\ps_passwd_sample.png)
+![powershell_ran_passwd_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/ps_passwd_sample.png)
 
 ### Generate a XKCD-style passphrase based upon a simple american dict compressed file.
 ![powershell_ran_xkcd_sample](https://github.com/scheehan/pySecureTokenGenerator/blob/master/images/ps_xkcd_sample.png)
