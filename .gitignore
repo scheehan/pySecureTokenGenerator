@@ -211,3 +211,6 @@ fabric.properties
 
 !.idea/codeStyles
 !.idea/runConfigurations
+
+# myFiles
+blog/
