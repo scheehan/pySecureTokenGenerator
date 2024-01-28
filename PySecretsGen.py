@@ -10,7 +10,7 @@ str_base_4 = ['16', '32', '64']
 str_num = ['4', '5', '6', '7', '8', '9', '10', '11', '12']
 str_range = ['9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
 
-DEFAULT_ENTROPY = 32  # number of bytes to return by default
+DEFAULT_ENTROPY = 32  # number of bytes to return by default if no input provided
 
 # generate an XKCD-style passphrase based upon a simple american dict compressed file
 def xkcd(exrp):
