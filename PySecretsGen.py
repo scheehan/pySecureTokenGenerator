@@ -14,7 +14,7 @@ DEFAULT_ENTROPY = 32  # number of bytes to return by default if no input provide
 
 # generate an XKCD-style passphrase based upon a simple american dict compressed file
 def xkcd(exrp):
-    # locate compressed dict file, and uncompress zip file with read mode
+    # locate compressed dict file, and uncompress zip file with read mode; this is to keepsmall file size
     with zipfile.ZipFile('american-english.zip', mode='r') as myzip:
         # access uncompressed file with read mode 
         with myzip.open('american-english', mode='r') as f:
