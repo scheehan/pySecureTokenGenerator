@@ -10,6 +10,8 @@ str_base_4 = ['16', '32', '64']
 str_num = ['4', '5', '6', '7', '8', '9', '10', '11', '12']
 str_range = ['9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
 
+DEFAULT_ENTROPY = 32  # number of bytes to return by default
+
 # generate an XKCD-style passphrase based upon a simple american dict compressed file
 def xkcd(exrp):
     # locate compressed dict file, and uncompress zip file with read mode
@@ -94,8 +96,7 @@ def main():
             sys.exit(1)
         else:
             # assign default value if no input
-            c_hex = 32
-            print(hex(c_hex))
+            print(hex(DEFAULT_ENTROPY))
             sys.exit(1)
 
     # check args if match condition 
@@ -114,8 +115,7 @@ def main():
             sys.exit(1)
         else:
             # assign default value if no input
-            c_urlsafe = 32
-            print(urlsafe(c_urlsafe))
+            print(urlsafe(DEFAULT_ENTROPY))
             sys.exit(1)
 
     # check args if match condition 
@@ -134,8 +134,7 @@ def main():
             sys.exit(1)
         else:
             # assign default value if no input
-            c_byte = 32
-            print(bytes(c_byte))
+            print(bytes(DEFAULT_ENTROPY))
             sys.exit(1)
     
     # check args if match condition         
